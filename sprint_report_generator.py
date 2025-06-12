@@ -8,8 +8,7 @@ st.title("📊 Report from Shared OneDrive/SharePoint Excel")
 
 # Input the shared link
 shared_link = st.text_input(
-    "https://impelsysinc-my.sharepoint.com/:x:/g/personal/anandu_m_medlern_com/Edy6v_ixZWdHj4OYIs3ZtDgBalxe6J2ZD5f6I3pWqK9O3A?e=O1RZXS&nav=MTVfezVFNDJCRDIzLTMzMzUtNDkzMC1BMjFDLTREMDYzNURGODg4N30", 
-    "https://impelsysinc-my.sharepoint.com/:x:/g/personal/…?e=EjqRGl"
+    "https://impelsysinc-my.sharepoint.com/:x:/g/personal/anandu_m_medlern_com/Edy6v_ixZWdHj4OYIs3ZtDgBalxe6J2ZD5f6I3pWqK9O3A?e=O1RZXS&nav=MTVfezVFNDJCRDIzLTMzMzUtNDkzMC1BMjFDLTREMDYzNURGODg4N30"
 )
 
 def get_direct_download_link(shared_link: str) -> str:
